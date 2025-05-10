@@ -1,5 +1,5 @@
-Blog 1  
-Q1: What are some differences between interfaces and types in TypeScript?
+
+**Question 01: What are some differences between interfaces and types in TypeScript?**
 
 **Interface:**
 An interface is like a blueprint in TypeScript. It defines what properties and methods an object should have.
@@ -67,4 +67,15 @@ function showStatus(status: Status): void {
 showStatus("loading");  // Output: Status: loading
 showStatus("success");  // Output: Status: success
 ```
+**Question 05: What is type inference in TypeScript? Why is it helpful?**
 
+**Type Inference:**
+Type inference is a feature in TypeScript where the compiler automatically detects the type of a variable even if it’s not written explicitly.
+
+**Why is it helpful:**
+
+It saves time and reduces the need to write extra code.
+Even without writing the type, you get IntelliSense, auto-completion, and type checking.
+It keeps your code clean and easy to read.
+It helps catch type errors early during development.
+It speeds up development with smart suggestions from your editor.
